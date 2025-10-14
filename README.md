@@ -2,6 +2,15 @@
 
 <h3>Ce projet propose un script Bash (deploy.sh) permettant d’installer automatiquement GLPI version 11 sur un serveur Ubuntu. Il simplifie toutes les étapes nécessaires à la mise en place d’un environnement fonctionnel pour GLPI, en quelques commandes seulement.</h3>
 
+
+<p align="center">
+  <img src="scr1.png" alt="Aperçu de GLPI" width="600">
+</p>
+<p align="center">
+  <img src="scr2.png" alt="Aperçu de GLPI" width="600">
+</p>
+
+
 📦 Fonctionnalités du script :
 Le script deploy.sh automatise les opérations suivantes :
 - 🔄 Mise à jour du système (apt update && apt upgrade)
@@ -80,13 +89,13 @@ post-only
 post-only
 ```
 
-<h2>⚠️ Mise en garde</h2>
+<h2>⚠️ Mise en garde ⚠️</h2>
 
 <h3>Important :
 Les mots de passe d’accès par défaut de GLPI doivent absolument être modifiés immédiatement après l’installation.
 Les identifiants par défaut (comme glpi/glpi, tech/tech, etc.) sont publics et peuvent être utilisés par n’importe qui pour accéder à votre instance.</h3>
 
-<h1>🚧 Ce projet n’est pas destiné à un déploiement en environnement professionnel.</h1>
+<h1>🚧 Ce projet n’est pas destiné à un déploiement en environnement professionnel. 🚧</h1>
 
 <h3>
   Il s’agit uniquement d’un projet de test et de démonstration visant à faciliter l’installation et la découverte de GLPI dans un cadre personnel ou d’apprentissage.
